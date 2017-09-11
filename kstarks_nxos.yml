@@ -6,6 +6,6 @@
   tasks:
   - name: show version
     nxoxs_command:
-      host: '{{ inventory_hostname  }}'
+      host: '{{ inventory_hostname }}'
       commands:
       - show ip int brief
